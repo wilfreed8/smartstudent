@@ -1,13 +1,12 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Caprasimo&family=Libre+Baskerville&family=Fontdiner+Swanky&family=Protest+Revolution&family=Rubik+Moonrocks&family=Rye&display=swap');
+@import "tailwindcss";
+@theme {
+  --font-f1: "Caprasimo", sans-serif; 
+  --font-f2: "Rubik Moonrocks",sans-serif;
+  --font-f3: "Rye",sans-serif;
+  --font-f4: "Arizonia",sans-serif;
+  --font-f5: "Fontdiner Swanky",sans-serif;
+  --font-f6: "Protest Revolution",sans-serif;
+  --font-f7: "Libre Baskerville ",sans-serif;
+  
 }
